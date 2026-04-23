@@ -18,7 +18,7 @@ install.packages(std_pkgs_needed)
 
 To reproduce the prepared dataset, you need:
 
-- the full hyena database (not provided, but not need to reproduce the results, see below)
+- the full hyena database (not provided, but not needed to reproduce the results, see below)
 
 - the variant call format (VCF) file storing the SNP-information (provided at https://zenodo.org/records/19709944)
 
