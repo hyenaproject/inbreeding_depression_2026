@@ -1,0 +1,29 @@
+Trait	Effect	Parameter	Estimate	SE	Chi2	p-value	CensusYears	Model	N
+Log(Lifespan)	Fixed	Intercept	1.088	0.116	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Fixed	FGRM	-2.495	0.917	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Fixed	SexM	-0.126	0.058	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Fixed	Social rank	-0.011	0.003	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Fixed	Clan size	-0.01	0.002	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Random	Clan	0.026	NA	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Random	Mother	0.047	NA	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Random	Birth year	0.001	NA	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Random	Individual	0.03	NA	NA	NA	10	y10_model_lifespan_fgrm_am	768
+Log(Lifespan)	Random	Residual variance	0.582	NA	NA	NA	10	y10_model_lifespan_fgrm_am	768
+LRS	Fixed	Intercept	2.29	0.26	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Fixed	FGRM	-9.036	2.174	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Fixed	SexM	-0.368	0.127	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Fixed	Social rank	-0.03	0.006	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Fixed	Clan size	-0.017	0.004	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Random	Clan	0.141	NA	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Random	Mother	0	NA	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Random	Birth year	0.051	NA	NA	NA	10	y10_model_lrs_fgrm_am	768
+LRS	Random	Individual	0	NA	NA	NA	10	y10_model_lrs_fgrm_am	768
+Juvenile survival	Fixed	Intercept	1.788	0.306	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Fixed	FGRM	-2.987	2.481	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Fixed	SexM	-0.009	0.154	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Fixed	Social rank	-0.047	0.007	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Fixed	Clan size	-0.002	0.004	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Random	Clan	0.037	NA	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Random	Mother	0.203	NA	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Random	Birth year	0.567	NA	NA	NA	4	y4_model_js_fgrm_am	993
+Juvenile survival	Random	Individual	0	NA	NA	NA	4	y4_model_js_fgrm_am	993

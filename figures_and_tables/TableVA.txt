@@ -1,0 +1,7 @@
+Trait	Effect	Parameter	VA	Estimate	SE	Chi2	p-value	CensusYears	Model	N
+Log(Lifespan)	Fixed	FGRM	WithoutVA	-2.658	0.914	NA	NA	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Fixed	FGRM	With VA	-2.495	0.917	NA	NA	10	y10_model_lifespan_fgrm_am	768
+LRS	Fixed	FGRM	WithoutVA	-9.036	2.173	NA	NA	10	y10_model_lrs_fgrm	768
+LRS	Fixed	FGRM	With VA	-9.036	2.174	NA	NA	10	y10_model_lrs_fgrm_am	768
+Juvenile survival	Fixed	FGRM	WithoutVA	-2.987	2.481	NA	NA	4	y4_model_js_fgrm	993
+Juvenile survival	Fixed	FGRM	With VA	-2.987	2.481	NA	NA	4	y4_model_js_fgrm_am	993

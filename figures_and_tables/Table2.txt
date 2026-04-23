@@ -1,0 +1,38 @@
+Trait	Effect	Parameter	Estimate	SE	Chi2	p-value	CensusYears	Model	N
+Log(Lifespan)	Fixed	Intercept	1.038	0.111	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Fixed	FGRM	-6.165	3.18	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Fixed	SexM	-0.118	0.059	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Fixed	Social rank	-0.011	0.003	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Fixed	Clan size	-0.008	0.002	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Fixed	FGRM:SexM	0.944	1.841	0.241	0.615	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Fixed	FGRM:Social rank	0.032	0.092	0.119	0.74	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Fixed	FGRM:Clan size	0.047	0.054	0.643	0.437	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Random	Clan	0.02	NA	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Random	FGRM|Clan	0.061	NA	0.071	0.795	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Random	Mother	0.053	NA	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Random	Birth year	0.001	NA	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+Log(Lifespan)	Random	Residual variance	0.603	NA	NA	NA	10	y10_model_lifespan_fgrm_IBxE	768
+LRS	Fixed	Intercept	2.276	0.258	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Fixed	FGRM	-7.455	6.369	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Fixed	SexM	-0.398	0.128	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Fixed	Social rank	-0.03	0.006	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Fixed	Clan size	-0.017	0.004	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Fixed	FGRM:SexM	-6.317	4.44	2.019	0.142	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Fixed	FGRM:Social rank	0.122	0.221	0.295	0.566	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Fixed	FGRM:Clan size	0.014	0.111	0.011	0.916	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Random	Clan	0.132	NA	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Random	FGRM|Clan	1.755	NA	0.158	0.716	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Random	Mother	0	NA	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+LRS	Random	Birth year	0.052	NA	NA	NA	10	y10_model_lrs_fgrm_IBxE	768
+Juvenile survival	Fixed	Intercept	1.817	0.31	NA	NA	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Fixed	FGRM	-11.854	7.024	NA	NA	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Fixed	SexM	-0.007	0.155	NA	NA	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Fixed	Social rank	-0.048	0.007	NA	NA	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Fixed	Clan size	-0.002	0.004	NA	NA	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Fixed	FGRM:SexM	-6.707	4.952	1.728	0.204	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Fixed	FGRM:Social rank	0.158	0.225	0.455	0.498	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Fixed	FGRM:Clan size	0.172	0.114	2.127	0.159	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Random	Clan	0.041	NA	NA	NA	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Random	FGRM|Clan	0.043	NA	0.047	0.749	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Random	Mother	0.19	NA	NA	NA	4	y4_model_js_fgrm_IBxE	993
+Juvenile survival	Random	Birth year	0.592	NA	NA	NA	4	y4_model_js_fgrm_IBxE	993

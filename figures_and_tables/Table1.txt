@@ -1,0 +1,26 @@
+Trait	Effect	Parameter	Estimate	SE	Chi2	p-value	CensusYears	Model	N
+Log(Lifespan)	Fixed	Intercept	1.047	0.11	NA	NA	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Fixed	FGRM	-2.658	0.914	8.325	0.006	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Fixed	SexM	-0.126	0.058	4.6	0.028	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Fixed	Social rank	-0.011	0.003	12.068	0.002	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Fixed	Clan size	-0.008	0.002	10.349	0.003	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Random	Clan	0.019	NA	NA	NA	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Random	Mother	0.052	NA	NA	NA	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Random	Birth year	0.002	NA	NA	NA	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Random	Residual variance	0.605	NA	NA	NA	10	y10_model_lifespan_fgrm	768
+LRS	Fixed	Intercept	2.29	0.26	NA	NA	10	y10_model_lrs_fgrm	768
+LRS	Fixed	FGRM	-9.036	2.173	15.777	0.001	10	y10_model_lrs_fgrm	768
+LRS	Fixed	SexM	-0.368	0.127	7.691	0.007	10	y10_model_lrs_fgrm	768
+LRS	Fixed	Social rank	-0.03	0.006	23.734	0.001	10	y10_model_lrs_fgrm	768
+LRS	Fixed	Clan size	-0.017	0.004	8.107	0.004	10	y10_model_lrs_fgrm	768
+LRS	Random	Clan	0.141	NA	NA	NA	10	y10_model_lrs_fgrm	768
+LRS	Random	Mother	0	NA	NA	NA	10	y10_model_lrs_fgrm	768
+LRS	Random	Birth year	0.051	NA	NA	NA	10	y10_model_lrs_fgrm	768
+Juvenile survival	Fixed	Intercept	1.788	0.306	NA	NA	4	y4_model_js_fgrm	993
+Juvenile survival	Fixed	FGRM	-2.987	2.481	1.323	0.261	4	y4_model_js_fgrm	993
+Juvenile survival	Fixed	SexM	-0.009	0.154	0.003	0.964	4	y4_model_js_fgrm	993
+Juvenile survival	Fixed	Social rank	-0.047	0.007	43.149	0.001	4	y4_model_js_fgrm	993
+Juvenile survival	Fixed	Clan size	-0.002	0.004	0.178	0.686	4	y4_model_js_fgrm	993
+Juvenile survival	Random	Clan	0.037	NA	NA	NA	4	y4_model_js_fgrm	993
+Juvenile survival	Random	Mother	0.203	NA	NA	NA	4	y4_model_js_fgrm	993
+Juvenile survival	Random	Birth year	0.567	NA	NA	NA	4	y4_model_js_fgrm	993

@@ -1,0 +1,17 @@
+# ignored since user specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.exe
+.DS_Store
+
+# ignored since temporary files
+scratch
+
+# ignored since too large for GitHub
+*.vcf
+fitted\_models
+
+# ignore since contains private data
+private

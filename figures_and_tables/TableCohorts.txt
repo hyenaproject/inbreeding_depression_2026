@@ -1,0 +1,7 @@
+Trait	Effect	Parameter	Estimate	SE	Chi2	p-value	CensusYears	Model	N
+Log(Lifespan)	Fixed	FGRM	-2.658	0.914	NA	NA	10	y10_model_lifespan_fgrm	768
+Log(Lifespan)	Fixed	FGRM	-2.59	0.879	NA	NA	8	y8_model_lifespan_fgrm	864
+Log(Lifespan)	Fixed	FGRM	-3.013	0.961	NA	NA	12	y12_model_lifespan_fgrm	715
+LRS	Fixed	FGRM	-9.036	2.173	NA	NA	10	y10_model_lrs_fgrm	768
+LRS	Fixed	FGRM	-8.394	2.192	NA	NA	8	y8_model_lrs_fgrm	864
+LRS	Fixed	FGRM	-8.555	2.198	NA	NA	12	y12_model_lrs_fgrm	715

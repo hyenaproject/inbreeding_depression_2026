@@ -1,0 +1,26 @@
+Trait	Effect	Parameter	Estimate	SE	Chi2	p-value	CensusYears	Model	N
+Log(Lifespan)	Fixed	Intercept	0.671	0.118	NA	NA	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Fixed	FPED	-4.417	1.307	11.261	0.004	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Fixed	SexM	-0.099	0.054	3.338	0.069	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Fixed	Social rank	-0.012	0.002	22.755	0.001	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Fixed	Clan size	-0.003	0.002	2.227	0.165	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Random	Clan	0.013	NA	NA	NA	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Random	Mother	0.019	NA	NA	NA	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Random	Birth year	0.027	NA	NA	NA	10	y10_model_lifespan_fped	793
+Log(Lifespan)	Random	Residual variance	0.545	NA	NA	NA	10	y10_model_lifespan_fped	793
+LRS	Fixed	Intercept	1.807	0.28	NA	NA	10	y10_model_lrs_fped	793
+LRS	Fixed	FPED	-11.707	3.927	8.37	0.007	10	y10_model_lrs_fped	793
+LRS	Fixed	SexM	-0.455	0.143	9.801	0.003	10	y10_model_lrs_fped	793
+LRS	Fixed	Social rank	-0.043	0.006	39.573	0.001	10	y10_model_lrs_fped	793
+LRS	Fixed	Clan size	-0.005	0.004	1.207	0.292	10	y10_model_lrs_fped	793
+LRS	Random	Clan	0.036	NA	NA	NA	10	y10_model_lrs_fped	793
+LRS	Random	Mother	0	NA	NA	NA	10	y10_model_lrs_fped	793
+LRS	Random	Birth year	0.157	NA	NA	NA	10	y10_model_lrs_fped	793
+Juvenile survival	Fixed	Intercept	1.993	0.332	NA	NA	4	y4_model_js_fped	1254
+Juvenile survival	Fixed	FPED	-1.929	2.919	0.418	0.537	4	y4_model_js_fped	1254
+Juvenile survival	Fixed	SexM	-0.026	0.13	0.037	0.854	4	y4_model_js_fped	1254
+Juvenile survival	Fixed	Social rank	-0.037	0.006	43.313	0.001	4	y4_model_js_fped	1254
+Juvenile survival	Fixed	Clan size	-0.011	0.004	7.845	0.007	4	y4_model_js_fped	1254
+Juvenile survival	Random	Clan	0.256	NA	NA	NA	4	y4_model_js_fped	1254
+Juvenile survival	Random	Mother	0.156	NA	NA	NA	4	y4_model_js_fped	1254
+Juvenile survival	Random	Birth year	0.356	NA	NA	NA	4	y4_model_js_fped	1254
