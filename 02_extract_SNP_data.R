@@ -1,12 +1,36 @@
 # Extraction/filtering of SNP data. 
 # Please call '01_run_always.R' first, in case you want to inspect this script separately:
-# source("01_run_always.R") 
+source("01_run_always.R") 
 
 # To run the below code, you need: 
-# 1. 'plink' to be installed on your machine (https://www.cog-genomics.org/plink/).
+# 1. The file hyenas.vcf placed in the folder data (see below for download)
+# 2. 'plink' to be installed on your machine (https://www.cog-genomics.org/plink/).
 # (for Linux, after extracting the program, run `sudo cp plink /usr/bin/` in a terminal so that calls below work)
-# 2. The file hyenas.vcf placed in the folder data
+# (for Windows, store plink.exe in the working directory of this project)
 
+if (system("plink --version") != 0) {
+  stop("plink is not accessible. Please check installation notes.")
+}
+
+# Download the VCF file --------------------------------------------------------
+# if the download fails for some reasons, you can also download the file manually
+# at https://zenodo.org/records/19709944
+# If doing so, you must place the downloaded file within the folder data and 
+# rename it as hyenas.vcf
+
+opt <- options(timeout = 1200) # increase download timeout to 20min for slow connections
+download.file("https://zenodo.org/records/19709944/files/hyenas_deIDd_Apr26.vcf?download=1",
+              destfile = "data/hyenas.vcf")
+md5 <- tools::md5sum("data/hyenas.vcf")
+if (md5 != "3def661153f84cce687a025dec9a262f") {
+  file.remove("data/hyenas.vcf")
+  message("MD5 mismatch! Please download the file manually, rename it to hyenas.vcf and store it in the folder `data`.")
+} else {
+  message("MD5 check passed! The file is correct.")
+}
+options(opt) # restore default setting
+
+# for maintainers only:
 #path_vcf <- "private/Hyenas_2ndRun_mincov10MaxCov110.vcf"
 #complete_table <- read_csv("private/complete_table_original.csv")
 

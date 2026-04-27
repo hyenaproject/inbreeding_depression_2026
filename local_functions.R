@@ -1,4 +1,4 @@
-# no need to run this script outside of the 00_master_script.R
+# no need to run this script outside of the 00_main_script.R
 # Helper functions
 
 # Functions for handling IDs in plink ----

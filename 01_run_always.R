@@ -1,5 +1,5 @@
 # Libraries ####
-std_pkgs_needed <- c("tidyverse", "kinship2", "purrr", "spaMM", "mgcv", "doSNOW", "patchwork",
+std_pkgs_needed <- c("tidyverse", "kinship2", "spaMM", "mgcv", "doSNOW", "patchwork",
                      "sequoia", "ggroups", "ggExtra", "nadiv") 
 
 # install.packages(std_pkgs_needed) ## shortcut to install all standard packages at once, if needed. Uncomment and run this line if you need to install all the packages at once.

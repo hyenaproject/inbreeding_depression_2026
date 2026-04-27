@@ -4,7 +4,7 @@
 # For it to work, please make sure you copy the entire repository and
 # have the root of the repository set as working directory.
 
-cleanup <- TRUE  ## switch to TRUE to delete files produced by this script
+cleanup <- FALSE  ## switch to TRUE to delete files produced by this script
 
 if (cleanup) {
   unlink("data/complete_table_Fhat3.csv")
@@ -15,18 +15,12 @@ if (cleanup) {
   dir.create("figures_and_tables")
 }
 
-# Download the VCF file
-# if the download fails for some reasons, you can also download the file manually
-# at https://zenodo.org/records/19709944
-# If doing so, you must place the downloaded file within the folder data and 
-# rename it as hyenas.vcf
 
-opt <- options(timeout = 1200) # increase download timeout to 20min for slow connections
-download.file("https://zenodo.org/records/19709944/files/hyenas_deIDd_Apr26.vcf?download=1",
-              destfile = "data/hyenas.vcf")
-options(opt) # restore default setting
+# Install required packages ----------------------------------------------------
+std_pkgs_needed <- c("tidyverse", "kinship2", "spaMM", "mgcv", "doSNOW", "patchwork",
+                     "sequoia", "ggroups", "ggExtra", "nadiv")
 
-
+# install.packages(std_pkgs_needed) ## uncomment and run this line if you need to install the packages
 
 
 # Load packages and local functions --------------------------------------------
@@ -34,11 +28,15 @@ options(opt) # restore default setting
 source("01_run_always.R")
 
 
-# SNP data extraction ----------------------------------------------------------
+# Data import ------------------------------------------------------------------
 
-## Run only if you want to recreate the file complete_table_Fhat3.csv: (15min/4 cores)
-source("02_extract_SNP_data.R")   
+# Loading the data is not needed since auxiliary scripts do it internally
+# but we do it here to show you the full dataset
 
+## Note: if you want to recreate the SNP filtering producing complete_table_Fhat3
+## you should open 02_extract_SNP_data.R and run the script line by line
+
+complete_table_Fhat3 <- read_csv("data/complete_table_Fhat3.csv")
 complete_table_Fhat3
 
 
